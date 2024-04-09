@@ -24,7 +24,6 @@ class ApiService {
       for (var webtoon in webtoons) {
         webtoonInstances.add(WebtoonModel.fromJson(webtoon));
         //fromJson이라는 named constructor을 사용해서 webtoonModel을 만들어준다
-        print(webtoonInstances);
       }
       return webtoonInstances;
     }
