@@ -41,7 +41,7 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> {
           ),
           Offstage(
             offstage: _selectedIndex != 1, //화면을 보여줄지말지 결정
-            child: const DiscoverScreen(),
+            child: DiscoverScreen(),
           ),
           Offstage(
             offstage: _selectedIndex != 3, //화면을 보여줄지말지 결정
